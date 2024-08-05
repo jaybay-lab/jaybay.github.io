@@ -1,0 +1,11 @@
+@import "../reset.css";
+@import "../common.css";
+@import "../components/header.css";
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playwrite+AR:wght@100..400&display=swap");
+@import "../components/slider.css";
+@import "../components/intro.css";
+@import "../components/product-list.css";
+@import "../components/footer.css";
+
+.main {
+}

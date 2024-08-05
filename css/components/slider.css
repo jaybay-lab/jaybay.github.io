@@ -1,0 +1,82 @@
+.main__slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: hwb(191 5% 50%);
+  position: relative;
+  height: 80vh;
+  box-sizing: border-box;
+}
+.main__slider-btn i {
+  transform: scale(1.5);
+  color: white;
+}
+.main__slider-btn {
+}
+.main__slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main__slider-iamge {
+  width: 500px;
+  border-top-radius: 50px;
+  display: flex;
+  position: relative;
+}
+
+.main__slider-text {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.main__slider-image-container {
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin: 15px 0;
+}
+
+.main__slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main__slider-title {
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main__progress-bar {
+  width: 300px;
+  height: 3px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.main__progress-bar-item {
+  height: 100%;
+  background-color: white;
+  margin: 0 2px;
+}
+
+.main__progress-bar-item--visible {
+  width: 50%;
+}
+.main__progress-bar-item--invisible {
+  width: 25%;
+  opacity: 50%;
+}
